@@ -17,6 +17,8 @@
     - Sqlite support in JdbiRule (jdbi3-testing)
     - TimestampedConfig now controls the ZoneId used to generate an OffsetDateTime
     - StatementCustomizer now has a hook for before SQL statement templating
+    - Enums config class to change the default policy for binding and mapping Enum values.
+    - @EnumByName and @EnumByOrdinal annotations to override said default policy.
   - New beta API
     - Type qualifiers for binding and mapping. Use annotations to distinguish between different SQL
       data types that map to the same Java type. e.g. VARCHAR, NVARCHAR, and Postgres MACADDR all
